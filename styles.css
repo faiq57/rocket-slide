@@ -1,0 +1,62 @@
+* {
+  font-family: "RobotoMono";
+}
+
+@font-face {
+  font-family: Mabook;
+  src: url(fonts/Mabook.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: ROT;
+  src: url("fonts/RUNNING ON EMPTY.ttf");
+}
+
+@font-face {
+  font-family: Hujan;
+  src: url("fonts/Hujan.ttf");
+}
+
+body {
+  background-color: #35133F;
+}
+h1 {
+  font-size: 300%; font-family: "Hujan"; color: #63B99B;
+}
+p {
+  color: #DFF0E5;
+}
+h2 {
+  font-family: "Mabook"; color: #D0D5B9;
+}
+h3 {
+  font-family: "ROT"; color: #F6EEA7;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
