@@ -60,3 +60,21 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+img {
+  width: 500px;
+}
+
+hr {
+  border: none;
+  border-top: 4px solid #63B99B;
+  border-bottom: 3px dashed #F6EEA7;
+  margin-bottom: 40px;
+}
+
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
